@@ -20,12 +20,11 @@
   "dependencies": {
     "@ahrefs/bs-emotion": "^1.0.1",
     "@ahrefs/bs-emotion-ppx": "^1.0.2-dev.1",
-    "@davesnx/styled-ppx": "^0.4.0",
+    "@davesnx/styled-ppx": "^0.6.0",
     "autoprefixer": "^9.7.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "reason-react": ">=0.7.0",
-    "styled-ppx": "^0.2.2"
+    "reason-react": ">=0.7.0"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",

@@ -11,7 +11,7 @@ module Text = [%styled
 |}
 ];
 
-module Link = [%styled
+module Link = [%styled.a
   {| font-size: 1.875rem; color: #1a202c; margin-bottom: 1rem; |}
 ];
 
@@ -22,6 +22,8 @@ let make = (~name) => {
       {React.string({j|👋 Welcome $name! You can edit me in |j})}
       <code> {React.string("src/components/Greet.re")} </code>
     </Text>
-    <Link> {React.string("Learn Reason React")} </Link>
+    <Link href="https://sancho.dev">
+      {React.string("Learn Reason React")}
+    </Link>
   </Container>;
 };
