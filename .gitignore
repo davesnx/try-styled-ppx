@@ -1,0 +1,25 @@
+# Normal npm stuff
+npm-debug.log
+/node_modules/
+/.cache/
+/dist/
+/build/
+
+# Bucklescript stuff
+/lib
+/types
+.merlin
+.bsb.lock
+*.bs.js
+
+.merlin
+.bsb.lock
+*.log
+/lib
+node_modules
+/build/
+**/*.bs.js
+dist/
+esy.lock
+.cache
+_esy
