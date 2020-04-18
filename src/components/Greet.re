@@ -25,5 +25,6 @@ let make = (~name) => {
     <Link href="https://sancho.dev">
       {React.string("Learn Reason React")}
     </Link>
+    <span className=[%css "display: flex"] />
   </Container>;
 };
