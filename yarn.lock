@@ -384,10 +384,15 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@davesnx/styled-ppx@^1.0.1-nightly.7dafd84.0":
-  version "1.0.1-nightly.7dafd84.0"
-  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.0.1-nightly.7dafd84.0.tgz#8e025a124023719f7385ebe27a3069f6824d1647"
-  integrity sha512-TBkrUy6Rr6E4sZQHCxpx92J9zxj/79GhlsMD+vw4K0fu/r/I2YM7cxx7VAwbQngQBQhWqtlDaPXQWVCiswYQWw==
+"@davesnx/styled-ppx@^1.0.1-nightly.3badeeb.0":
+  version "1.0.1-nightly.d7c8a70.0"
+  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.0.1-nightly.d7c8a70.0.tgz#17afb519870d582c05f06cd3004e966737114852"
+  integrity sha512-qoHpZpvuypb9Xs5uZIdptrlPrniEgty4m9x+tsMbzqtPZHCyZJa41VJOApEPOcSXbsNLPgWVxcbMtpoppFkvmA==
+
+"@dylanirlbeck/tailwind-ppx@^0.8.2":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@dylanirlbeck/tailwind-ppx/-/tailwind-ppx-0.8.3.tgz#f3af9dbe2bbf141dda6dc278cbf63b2b36b258d6"
+  integrity sha512-5YTpWRJoJ4fKWYs4YU4P3jhUYrlbf/50kHZG+/KIjEI40lU2TUZ36Jtl76AzcIho2EcNdXj4ukGXNMCr24AJEA==
 
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
@@ -1546,9 +1551,9 @@ bluebird@^3.5.5:
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -2872,9 +2877,9 @@ electron-to-chromium@^1.3.413:
   integrity sha512-WOr3SrZ55lUFYugA6sUu3H3ZoxVIH5o3zTSqYS+2DOJJP4hnHmBiD1w432a2YFW/H2G5FIxE6DB06rv+9dUL5g==
 
 elliptic@^6.0.0:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -6578,6 +6583,11 @@ react-is@^16.12.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-rules-of-hooks-ppx@^0.2.4:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/react-rules-of-hooks-ppx/-/react-rules-of-hooks-ppx-0.2.8.tgz#da36650d521af8c156a00cc976638bcdad0a1433"
+  integrity sha512-2W2OZ4ZLx8L40wGo/P4Vr0dyZtGpBShCQ4gZ6KKplNQh/lg2cfMiEee2rEhD7z2CuDzFvgIskvQenrhRuD1kKQ==
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
@@ -7492,6 +7502,11 @@ style-loader@^1.2.1:
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^2.6.6"
+
+"styled-ppx@git+https://github.com/davesnx/styled-ppx.git":
+  version "1.0.1-0"
+  uid d987a2403cafcb7faf8f813e47bb72b4c24b983a
+  resolved "git+https://github.com/davesnx/styled-ppx.git#d987a2403cafcb7faf8f813e47bb72b4c24b983a"
 
 stylehacks@^4.0.0:
   version "4.0.3"
