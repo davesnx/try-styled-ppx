@@ -32,7 +32,8 @@
     "bs-webapi"
   ],
   "ppx-flags": [
-    "@davesnx/styled-ppx/styled-ppx"
+    "@davesnx/styled-ppx/styled-ppx",
+    "react-rules-of-hooks-ppx/Bin.exe"
   ],
   "refmt": 3,
   "warnings": {

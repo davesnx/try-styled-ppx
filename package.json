@@ -20,12 +20,14 @@
 	"dependencies": {
 		"@ahrefs/bs-emotion": "^1.0.1",
 		"@ahrefs/bs-emotion-ppx": "^1.0.2-dev.3",
-		"@davesnx/styled-ppx": "^1.0.1-nightly.7dafd84.0",
+		"@davesnx/styled-ppx": "^1.0.1-nightly.3badeeb.0",
+		"@dylanirlbeck/tailwind-ppx": "^0.8.2",
 		"autoprefixer": "^9.8.0",
 		"bs-css-emotion": "^2.0.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"reason-react": ">=0.8.0"
+		"reason-react": ">=0.8.0",
+		"styled-ppx": "git+https://github.com/davesnx/styled-ppx.git"
 	},
 	"devDependencies": {
 		"@glennsl/bs-jest": "^0.5.1",
@@ -38,6 +40,7 @@
 		"html-webpack-plugin": "^4.3.0",
 		"mini-css-extract-plugin": "^0.9.0",
 		"optimize-css-assets-webpack-plugin": "^5.0.3",
+		"react-rules-of-hooks-ppx": "^0.2.4",
 		"style-loader": "^1.2.1",
 		"terser-webpack-plugin": "^3.0.1",
 		"webpack": "^4.43.0",

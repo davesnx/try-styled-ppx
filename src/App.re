@@ -4,6 +4,6 @@ let make = () => {
 
   switch (route) {
   | Some(Home) => <Page_Home />
-  | None => <Page_NotFound />
+  | None => <Input />
   };
 };

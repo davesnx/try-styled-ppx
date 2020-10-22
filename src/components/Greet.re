@@ -19,7 +19,8 @@ module Link = [%styled.a {|
 
 [@react.component]
 let make = (~name) =>
-  <Container>
+  {
+    <Container>
     <Text>
       {React.string({j|👋 Welcome $name! You can edit me in |j})}
       <code> {React.string("src/components/Greet.re")} </code>
@@ -28,4 +29,4 @@ let make = (~name) =>
       {React.string("Learn Reason React")}
     </Link>
     <span className=[%css "display: flex"] />
-  </Container>;
+  </Container>};
