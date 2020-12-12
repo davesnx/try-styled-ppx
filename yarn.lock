@@ -384,10 +384,15 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@davesnx/styled-ppx@^1.0.1-nightly.7dafd84.0":
-  version "1.0.1-nightly.7dafd84.0"
-  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.0.1-nightly.7dafd84.0.tgz#8e025a124023719f7385ebe27a3069f6824d1647"
-  integrity sha512-TBkrUy6Rr6E4sZQHCxpx92J9zxj/79GhlsMD+vw4K0fu/r/I2YM7cxx7VAwbQngQBQhWqtlDaPXQWVCiswYQWw==
+"@davesnx/styled-ppx@^1.0.1-nightly.3badeeb.0":
+  version "1.0.1-nightly.d7c8a70.0"
+  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.0.1-nightly.d7c8a70.0.tgz#17afb519870d582c05f06cd3004e966737114852"
+  integrity sha512-qoHpZpvuypb9Xs5uZIdptrlPrniEgty4m9x+tsMbzqtPZHCyZJa41VJOApEPOcSXbsNLPgWVxcbMtpoppFkvmA==
+
+"@dylanirlbeck/tailwind-ppx@^0.8.2":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@dylanirlbeck/tailwind-ppx/-/tailwind-ppx-0.8.4.tgz#1043a1cd4a2aa6434f57190c0b64c5f083d3e02f"
+  integrity sha512-9vTmygqVjG8Iv58P+B/qC3tbbQGoQuOEGeZgnnWB0gM/5g5QdS7VDTyyfrGBe4kPv40lkuyyEynrj60Oc+He/A==
 
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
@@ -3978,9 +3983,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -6578,6 +6583,11 @@ react-is@^16.12.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-rules-of-hooks-ppx@^0.2.4:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/react-rules-of-hooks-ppx/-/react-rules-of-hooks-ppx-0.2.8.tgz#da36650d521af8c156a00cc976638bcdad0a1433"
+  integrity sha512-2W2OZ4ZLx8L40wGo/P4Vr0dyZtGpBShCQ4gZ6KKplNQh/lg2cfMiEee2rEhD7z2CuDzFvgIskvQenrhRuD1kKQ==
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
@@ -7492,6 +7502,11 @@ style-loader@^1.2.1:
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^2.6.6"
+
+"styled-ppx@git+https://github.com/davesnx/styled-ppx.git":
+  version "1.0.1-0"
+  uid "38c62c9ceb074e3d61624fa9db909d47411d8c51"
+  resolved "git+https://github.com/davesnx/styled-ppx.git#38c62c9ceb074e3d61624fa9db909d47411d8c51"
 
 stylehacks@^4.0.0:
   version "4.0.3"
