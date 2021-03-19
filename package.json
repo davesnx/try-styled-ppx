@@ -20,14 +20,12 @@
 	"dependencies": {
 		"@ahrefs/bs-emotion": "^1.0.1",
 		"@ahrefs/bs-emotion-ppx": "^1.0.2-dev.3",
-		"@davesnx/styled-ppx": "^1.0.1-nightly.3badeeb.0",
-		"@dylanirlbeck/tailwind-ppx": "^0.8.2",
+		"@davesnx/styled-ppx": "1.1.1-nightly.ae39eb6.0",
 		"autoprefixer": "^9.8.0",
 		"bs-css-emotion": "^2.0.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"reason-react": ">=0.8.0",
-		"styled-ppx": "git+https://github.com/davesnx/styled-ppx.git"
+		"reason-react": ">=0.8.0"
 	},
 	"devDependencies": {
 		"@glennsl/bs-jest": "^0.5.1",

@@ -35,7 +35,6 @@
     "@davesnx/styled-ppx/styled-ppx",
     "react-rules-of-hooks-ppx/Bin.exe"
   ],
-  "refmt": 3,
   "warnings": {
     "error": "+5"
   },

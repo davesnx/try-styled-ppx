@@ -384,10 +384,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@davesnx/styled-ppx@^1.0.1-nightly.7dafd84.0":
-  version "1.0.1-nightly.7dafd84.0"
-  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.0.1-nightly.7dafd84.0.tgz#8e025a124023719f7385ebe27a3069f6824d1647"
-  integrity sha512-TBkrUy6Rr6E4sZQHCxpx92J9zxj/79GhlsMD+vw4K0fu/r/I2YM7cxx7VAwbQngQBQhWqtlDaPXQWVCiswYQWw==
+"@davesnx/styled-ppx@1.1.1-nightly.ae39eb6.0":
+  version "1.1.1-nightly.ae39eb6.0"
+  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-1.1.1-nightly.ae39eb6.0.tgz#efd2d60f4ea5d70b38d30cb1a3da8cd952bd9b19"
+  integrity sha512-v2czqtN5y+NLUtNpNGNRBAAO5ZN0PDaHNQ0YntkYuRP1fYbPUlRgxG9n15x6cSHgBKqX/0NeVtKLUDx4dKBvnQ==
 
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
@@ -6577,6 +6577,11 @@ react-is@^16.12.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-rules-of-hooks-ppx@^0.2.4:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/react-rules-of-hooks-ppx/-/react-rules-of-hooks-ppx-0.2.8.tgz#da36650d521af8c156a00cc976638bcdad0a1433"
+  integrity sha512-2W2OZ4ZLx8L40wGo/P4Vr0dyZtGpBShCQ4gZ6KKplNQh/lg2cfMiEee2rEhD7z2CuDzFvgIskvQenrhRuD1kKQ==
 
 react@^16.13.1:
   version "16.13.1"
