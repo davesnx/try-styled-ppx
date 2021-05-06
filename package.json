@@ -1,6 +1,6 @@
 {
 	"name": "try-styled-ppx",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "",
 	"author": "davesnx",
 	"license": "MIT",
@@ -12,54 +12,39 @@
 		"type": "git",
 		"url": "https://github.com//try-styled-ppx.git"
 	},
-	"keywords": [
-		"BuckleScript",
-		"Reason",
-		"ReasonReact"
-	],
 	"dependencies": {
-		"@ahrefs/bs-emotion": "^1.0.1",
-		"@ahrefs/bs-emotion-ppx": "^1.0.2-dev.3",
 		"@davesnx/styled-ppx": "1.1.1-nightly.ae39eb6.0",
-		"autoprefixer": "^9.8.0",
-		"bs-css-emotion": "^2.0.0",
+		"bs-css-emotion": "^2.5.1",
+		"bs-webapi": "^0.15.9",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"reason-react": ">=0.8.0"
+		"reason-react": "0.9.0"
 	},
 	"devDependencies": {
-		"@glennsl/bs-jest": "^0.5.1",
-		"bs-css": "^13.0.0",
 		"bs-platform": "^7.3.2",
-		"bs-react-testing-library": "^0.7.2",
-		"bs-webapi": "^0.15.9",
-		"concurrently": "^5.2.0",
-		"css-loader": "^3.5.3",
-		"html-webpack-plugin": "^4.3.0",
-		"mini-css-extract-plugin": "^0.9.0",
-		"optimize-css-assets-webpack-plugin": "^5.0.3",
-		"react-rules-of-hooks-ppx": "^0.2.4",
-		"style-loader": "^1.2.1",
-		"terser-webpack-plugin": "^3.0.1",
-		"webpack": "^4.43.0",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.11.0"
-	},
-	"jest": {
-		"roots": [
-			"<rootDir>/tests"
-		],
-		"testMatch": [
-			"<rootDir>/tests/**/*_test.{js,bs.js}"
-		]
+    "concurrently": "^6.0.0",
+    "esbuild": "^0.10.2",
+    "live-server": "^1.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": "^0.9.1"
 	},
 	"scripts": {
-		"build": "bsb -make-world && NODE_ENV=production webpack --config config/webpack.config.js && cp -n public/* build/ | true",
-		"start": "concurrently -c --kill-others 'yarn start:bsb' 'yarn start:webpack'",
-		"start:bsb": "bsb -make-world -w",
-		"start:webpack": "webpack-dev-server --config config/webpack.config.js --open",
-		"clean": "bsb -clean-world",
-		"test": "bsb -make-world && jest",
+		"bundle": "esbuild ./source/Index.bs.js --outfile=www/js/bundle.js --bundle --sourcemap --target=chrome58,firefox57,safari11,edge16 --define:process.env.NODE_ENV='\"development\"'",
+    "bundle:watch": "yarn bundle --watch --color=true",
+    "dev-server": "PORT=5000 live-server ./www --host=localhost",
+    "bs:build": "NINJA_ANSI_FORCED=1 bsb -make-world -clean-world",
+    "bs:watch": "NINJA_ANSI_FORCED=1 bsb -make-world -clean-world -w",
+    "bs:clean": "bsb -clean-world",
+    "start": "yarn clean; yarn bs:clean; concurrently --names re,db,dev,js --kill-others yarn:bs:watch yarn:dev-server yarn:bundle:watch",
+    "bundle:prod": "yarn bundle --minify --define:process.env.NODE_ENV='\"production\"'",
+    "clean": "rm -rf www/js",
 		"format": "bsrefmt --in-place */**/*.re */*.re"
-	}
+	},
+	"browser": {
+    "fs": false,
+    "tty": false,
+    "constants": false,
+    "child_process": false
+  }
 }

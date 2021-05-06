@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@opam/ocaml-lsp-server": "1.4.1"
+  }
+}

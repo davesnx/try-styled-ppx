@@ -1,6 +1,0 @@
-(Source react)
-(Cfg_str project_name try-styled-ppx)
-(Cfg_str project_slug try-styled-ppx)
-(Cfg_str project_description"")
-(Cfg_str author_name davesnx)
-(Cfg_str css_framework None)

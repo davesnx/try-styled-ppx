@@ -5,13 +5,8 @@
   },
   "sources": [
     {
-      "dir": "src",
+      "dir": "source",
       "subdirs": true
-    },
-    {
-      "dir": "tests",
-      "subdirs": true,
-      "type": "dev"
     }
   ],
   "package-specs": [
@@ -24,16 +19,11 @@
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
-    "bs-css-emotion"
-  ],
-  "bs-dev-dependencies": [
-    "@glennsl/bs-jest",
-    "bs-react-testing-library",
-    "bs-webapi"
+    "bs-css-emotion",
+    "bs-css"
   ],
   "ppx-flags": [
-    "@davesnx/styled-ppx/styled-ppx",
-    "react-rules-of-hooks-ppx/Bin.exe"
+    "@davesnx/styled-ppx/ppx"
   ],
   "warnings": {
     "error": "+5"
