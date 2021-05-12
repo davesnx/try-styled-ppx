@@ -1,5 +1,4 @@
-module Container = [%styled
-  {|
+module Container = [%styled.div {|
   position: relative;
   text-align: center;
   margin-top: 3rem;
@@ -7,16 +6,14 @@ module Container = [%styled
 |}
 ];
 
-module Text = [%styled.p
-  {|
+module Text = [%styled.p {|
   font-size: 1.875rem;
   text-decoration: none;
   color: #4299E1;
 |}
 ];
 
-module Link = [%styled.a
-  {|
+module Link = [%styled.a {|
   font-size: 1.875rem;
   color: #1A202C;
   margin-bottom: 1rem;
@@ -33,6 +30,6 @@ let make = (~name) => {
     <Link href="https://sancho.dev">
       {React.string("Learn Reason React")}
     </Link>
-    <span className=[%css "display: flex"] />
+    <span className=[%cx "display: flex"] />
   </Container>;
 };

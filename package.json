@@ -13,21 +13,18 @@
 		"url": "https://github.com//try-styled-ppx.git"
 	},
 	"dependencies": {
-		"@davesnx/styled-ppx": "1.1.1-nightly.ae39eb6.0",
+		"@davesnx/styled-ppx": "1.5.1-248424b.0",
 		"bs-css-emotion": "^2.5.1",
 		"bs-webapi": "^0.15.9",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"reason-react": "0.9.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": "^0.9.1"
 	},
 	"devDependencies": {
 		"bs-platform": "^7.3.2",
     "concurrently": "^6.0.0",
     "esbuild": "^0.10.2",
-    "live-server": "^1.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "reason-react": "^0.9.1"
+    "live-server": "^1.2.1"
 	},
 	"scripts": {
 		"bundle": "esbuild ./source/Index.bs.js --outfile=www/js/bundle.js --bundle --sourcemap --target=chrome58,firefox57,safari11,edge16 --define:process.env.NODE_ENV='\"development\"'",
