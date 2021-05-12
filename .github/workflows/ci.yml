@@ -29,4 +29,6 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build production assets
-        run: yarn bundle
+        run: |
+          yarn bs:build
+          yarn bundle
