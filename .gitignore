@@ -23,3 +23,6 @@ dist/
 esy.lock
 .cache
 _esy
+
+**/bundle.js
+**/bundle.js.map
