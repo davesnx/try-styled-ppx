@@ -1,33 +1,33 @@
 {
-	"name": "try-styled-ppx",
-	"version": "1.0.0",
-	"description": "",
-	"author": "davesnx",
-	"license": "MIT",
-	"homepage": "https://github.com//try-styled-ppx",
-	"bugs": {
-		"url": "https://github.com//try-styled-ppx/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com//try-styled-ppx.git"
-	},
-	"dependencies": {
-		"@davesnx/styled-ppx": "1.5.1-248424b.0",
-		"bs-css-emotion": "^2.5.1",
-		"bs-webapi": "^0.15.9",
+  "name": "try-styled-ppx",
+  "version": "1.0.0",
+  "description": "",
+  "author": "davesnx",
+  "license": "MIT",
+  "homepage": "https://github.com//try-styled-ppx",
+  "bugs": {
+    "url": "https://github.com//try-styled-ppx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//try-styled-ppx.git"
+  },
+  "dependencies": {
+    "@davesnx/styled-ppx": "1.5.1-248424b.0",
+    "bs-css-emotion": "^2.5.1",
+    "bs-webapi": "^0.15.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "reason-react": "^0.9.1"
-	},
-	"devDependencies": {
-		"bs-platform": "^7.3.2",
+  },
+  "devDependencies": {
+    "bs-platform": "^7.3.2",
     "concurrently": "^6.0.0",
     "esbuild": "^0.10.2",
     "live-server": "^1.2.1"
-	},
-	"scripts": {
-		"bundle": "esbuild ./source/Index.bs.js --outfile=www/js/bundle.js --bundle --sourcemap --target=chrome58,firefox57,safari11,edge16 --define:process.env.NODE_ENV='\"development\"'",
+  },
+  "scripts": {
+    "bundle": "esbuild ./source/Index.bs.js --outfile=www/js/bundle.js --bundle --sourcemap --target=chrome58,firefox57,safari11,edge16 --define:process.env.NODE_ENV='\"development\"'",
     "bundle:watch": "yarn bundle --watch --color=true",
     "dev-server": "PORT=5000 live-server ./www --host=localhost",
     "bs:build": "NINJA_ANSI_FORCED=1 bsb -make-world -clean-world",
@@ -36,9 +36,9 @@
     "start": "yarn clean; yarn bs:clean; concurrently --names re,db,dev,js --kill-others yarn:bs:watch yarn:dev-server yarn:bundle:watch",
     "bundle:prod": "yarn bundle --minify --define:process.env.NODE_ENV='\"production\"'",
     "clean": "rm -rf www/js",
-		"format": "bsrefmt --in-place */**/*.re */*.re"
-	},
-	"browser": {
+    "format": "bsrefmt --in-place */**/*.re */*.re"
+  },
+  "browser": {
     "fs": false,
     "tty": false,
     "constants": false,

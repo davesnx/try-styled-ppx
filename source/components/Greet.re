@@ -1,4 +1,5 @@
-module Container = [%styled.div {|
+module Container = [%styled.div
+  {|
   position: relative;
   text-align: center;
   margin-top: 3rem;
@@ -6,14 +7,16 @@ module Container = [%styled.div {|
 |}
 ];
 
-module Text = [%styled.p {|
+module Text = [%styled.p
+  {|
   font-size: 1.875rem;
   text-decoration: none;
   color: #4299E1;
 |}
 ];
 
-module Link = [%styled.a {|
+module Link = [%styled.a
+  {|
   font-size: 1.875rem;
   color: #1A202C;
   margin-bottom: 1rem;
@@ -21,7 +24,7 @@ module Link = [%styled.a {|
 ];
 
 [@react.component]
-let make = (~name) => {
+let make = (~name) =>
   <Container>
     <Text>
       {React.string({j|👋 Welcome $name! You can edit me in |j})}
@@ -32,4 +35,3 @@ let make = (~name) => {
     </Link>
     <span className=[%cx "display: flex"] />
   </Container>;
-};
