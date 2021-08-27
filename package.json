@@ -13,7 +13,7 @@
     "url": "https://github.com//try-styled-ppx.git"
   },
   "dependencies": {
-    "@davesnx/styled-ppx": "1.5.1-248424b.0",
+    "@davesnx/styled-ppx": "0.24.2-71e49bb.0",
     "bs-css-emotion": "^2.5.1",
     "bs-webapi": "^0.15.9",
     "react": "^17.0.2",
