@@ -46,10 +46,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@davesnx/styled-ppx@0.24.2-71e49bb.0":
-  version "0.24.2-71e49bb.0"
-  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-0.24.2-71e49bb.0.tgz#eef8450b89982ed31b645125f6b46b34ac73b297"
-  integrity sha512-3L4BuYN7yxkeiBhNlMcEbbEMs5haxM0JrnqxEwvk5H425nzh/4T9S+370/mrVtl0gKIGV8/zSdKrlOJjtLh59A==
+"@davesnx/styled-ppx@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@davesnx/styled-ppx/-/styled-ppx-0.25.0.tgz#24d0bc281f5d09ddf3713ae05665e069b9cf181b"
+  integrity sha512-KpnSIx1dj35Qcyj17NnEPUbCYCxchVqkbRrbYLWskIs9IA249Plof46Ipm1HFv1yXQSs3PkEgEMYzSRkvBsg+w==
 
 "@emotion/cache@^10.0.27":
   version "10.0.29"
