@@ -23,7 +23,7 @@
     "bs-css"
   ],
   "ppx-flags": [
-    "@davesnx/styled-ppx/ppx"
+    ["@davesnx/styled-ppx/ppx"]
   ],
   "warnings": {
     "error": "+5"

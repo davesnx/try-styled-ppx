@@ -1,4 +1,4 @@
 [@react.component]
 let make = () => {
-  <Greet name="Visitosdr" />;
+  <Greet name="Visitor" />;
 };
