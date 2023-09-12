@@ -1,9 +1,9 @@
 [@react.component]
 let make = () => {
-  let route = Router.useRouter();
+  let route = Some("Home");
 
   switch (route) {
-  | Some(Home) => <Page_Home />
-  | None => <Input />
+  | Some("Home") => <Page_Home />
+  | None | _ => <Input />
   };
 };

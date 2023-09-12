@@ -1,7 +1,7 @@
 [@bs.deriving abstract]
 type makeProps = {
   [@bs.optional]
-  ref: ReactDOMRe.domRef,
+  ref: ReactDOM.domRef,
   [@bs.optional]
   children: React.element,
   [@bs.optional]

@@ -1,7 +1,7 @@
 {
   "name": "try-styled-ppx",
-  "reason": {
-    "react-jsx": 3
+  "jsx": {
+    "version": 3
   },
   "sources": [
     {
@@ -18,9 +18,9 @@
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": [
-    "reason-react",
-    "bs-css-emotion",
-    "bs-css"
+    "@rescript/react",
+    "@davesnx/styled-ppx/css",
+    "@davesnx/styled-ppx/emotion"
   ],
   "ppx-flags": [
     ["@davesnx/styled-ppx/ppx"]
