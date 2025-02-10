@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
-    "esbuild": "^0.10.2",
+    "esbuild": "^0.25.0",
     "live-server": "^1.2.1"
   },
   "scripts": {
